@@ -74,19 +74,38 @@
     }
 }
 
-@media(max-width:768px) {
-   .mbl {
+@media(max-width:480px) {
+    .mbl {
         display: flex;
         justify-content: space-between;
         align-items: center;
     }
 
     .fa-bars {
-        padding-top: 30px;
+        padding-top: 10px;
         font-size: 35px;
 
     }
+
+    .slick-slider {
+        margin: 0 auto;
+    }
+
+
+    .slick-slide {
+        text-align: center;
+    }
+
+    .slick-slide img {
+        margin: 0 auto;
+    }
 }
+
+.slick-slider {
+    margin: 0 auto;
+}
+
+
 
 .service {
     font-family: "Open Sans", sans-serif;
