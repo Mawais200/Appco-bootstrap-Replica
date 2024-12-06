@@ -75,11 +75,16 @@
 }
 
 @media(max-width:768px) {
-    .mbl {
+   .mbl {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        padding-top:10px
+    }
+
+    .fa-bars {
+        padding-top: 10px;
+        font-size: 35px;
+
     }
 }
 
