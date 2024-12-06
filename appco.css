@@ -74,6 +74,14 @@
     }
 }
 
+@media(max-width:480px) {
+    .mbl {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
 .service {
     font-family: "Open Sans", sans-serif;
     font-weight: 600;
