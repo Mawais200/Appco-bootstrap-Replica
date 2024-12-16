@@ -18,6 +18,13 @@
     .spa{
         padding: 194px 0 200px 0;
     }
+    .headings{
+        font-weight: 700;
+        font-size: 47px;
+        color: #2b044d;
+        line-height: 1.25;
+        font-family: "Nunito", sans-serif
+}
     .featurette-heading {
         font-weight: 700;
         font-size: 65px;
@@ -148,6 +155,13 @@
         line-height: 85px;
         font-family: "Nunito", sans-serif;
     }
+    .headings{
+        font-weight: 700;
+        font-size: 47px;
+        color: #2b044d;
+        line-height: 1.25;
+        font-family: "Nunito", sans-serif
+}
     .fpa{
         padding-top: 91px; 
     }
@@ -241,6 +255,13 @@
     .spa{
         padding: 194px 0 200px 0;
     }
+    .headings{
+        font-weight: 700;
+        font-size: 47px;
+        color: #2b044d;
+        line-height: 1.25;
+        font-family: "Nunito", sans-serif
+}
     .featurette-heading {
         font-weight: 700;
         font-size: 65px;
@@ -338,6 +359,13 @@
         justify-content: space-between;
         align-items: center;
     }
+    .headings{
+        font-weight: 700;
+        font-size: 35px;
+        color: #2b044d;
+        line-height: 1;
+        font-family: "Nunito", sans-serif
+}
     .fp{
         padding-right: 10px;
         margin-top: 20px;
