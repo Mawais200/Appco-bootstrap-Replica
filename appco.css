@@ -5,6 +5,81 @@
         background-size: 30%;
 
     }
+    .lst{
+        padding-bottom: 48px;
+    }
+    .fp{
+        padding-right: 130px;
+        margin-top: 54px;
+    }
+    .fpa{
+        padding-top: 91px; 
+    }
+    .spa{
+        padding: 194px 0 200px 0;
+    }
+    .featurette-heading {
+        font-weight: 700;
+        font-size: 65px;
+        color: #2b044d;
+        line-height: 85px;
+        font-family: "Nunito", sans-serif;
+    }
+    
+    .paragraph {
+    
+        font-size: 16px;
+        font-weight: 400;
+        font-family: "Poppins", serif;
+        color: rgb(112, 123, 142);
+        line-height: 30px;
+    }
+    .buttonhu {
+        background: #f9218d;
+        text-transform: capitalize;
+        color: #fff;
+        cursor: pointer;
+        display: inline-block;
+        font-size: 16px;
+        font-weight: 400;
+        letter-spacing: 1px;
+        line-height: 0;
+        margin-bottom: 0;
+        padding: 30px 44px;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: none;
+        position: relative;
+        z-index: 1;
+        border: 0;
+        overflow: hidden;
+        margin: 0;
+        padding: 30px 43px;
+        border-radius: 30px;
+    }
+    
+    .buttonhu::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 0;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.1);
+        transition: width 0.5s ease-in;
+    
+    }
+    
+    .buttonhu:hover::before {
+    
+        width: 100%;
+    }
+    .caurse {
+        height: 380px;
+        width: 200px !important;
+        overflow: hidden;
+        padding: 0 20px;
+    }
 
     .reviews {
         margin: 50px 100px 0 100px;
@@ -28,7 +103,18 @@
         transform: translateY(50%);
     }
 
-
+    .review-card {
+        position: relative;
+        margin-left: 25px;
+        margin-right: 25px;
+        box-shadow: 0px 0px 9px 0px rgba(131, 93, 248, 0.07);
+        background: #ffff;
+        padding: 55px 34px 55px 44px;
+        opacity: 0.3;
+        font-family: 'Poppins', sans-serif;
+        width: 249px;
+    
+    }
 
 }
 
@@ -43,6 +129,97 @@
     .container-xl {
         max-width: 1480px;
     }
+    .lst{
+        padding-bottom: 48px;
+    }
+    
+        .fp{
+            padding-right: 130px;
+            margin-top: 54px;
+        }
+        .spa{
+            padding: 194px 0 200px 0;
+        }
+    
+    .featurette-heading {
+        font-weight: 700;
+        font-size: 65px;
+        color: #2b044d;
+        line-height: 85px;
+        font-family: "Nunito", sans-serif;
+    }
+    .fpa{
+        padding-top: 91px; 
+    }
+    .paragraph {
+    
+        font-size: 16px;
+        font-weight: 400;
+        font-family: "Poppins", serif;
+        color: rgb(112, 123, 142);
+        line-height: 30px;
+    }
+    .review-card {
+        position: relative;
+        margin-left: 25px;
+        margin-right: 25px;
+        box-shadow: 0px 0px 9px 0px rgba(131, 93, 248, 0.07);
+        background: #ffff;
+        padding: 55px 34px 55px 44px;
+        opacity: 0.3;
+        font-family: 'Poppins', sans-serif;
+        width: 249px;
+    
+    }
+    .buttonhu {
+        background: #f9218d;
+        text-transform: capitalize;
+        color: #fff;
+        cursor: pointer;
+        display: inline-block;
+        font-size: 16px;
+        font-weight: 400;
+        letter-spacing: 1px;
+        line-height: 0;
+        margin-bottom: 0;
+        padding: 30px 44px;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: none;
+        position: relative;
+        z-index: 1;
+        border: 0;
+        overflow: hidden;
+        margin: 0;
+        padding: 30px 43px;
+        border-radius: 30px;
+    }
+    
+    .buttonhu::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 0;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.1);
+        transition: width 0.5s ease-in;
+    
+    }
+    
+    .buttonhu:hover::before {
+    
+        width: 100%;
+    }
+    .caurse {
+        height: 380px;
+        width: 200px !important;
+        overflow: hidden;
+        padding: 0 20px;
+    }
+    .lst{
+        padding-bottom: 48px;
+    }
 }
 
 @media (max-width: 1440px) and (min-width:1153px) {
@@ -54,6 +231,78 @@
     .container-xl {
         max-width: 1250px;
     }
+     .fp{
+        padding-right: 130px;
+        margin-top: 54px;
+    }
+    .fpa{
+        padding-top: 91px; 
+    }
+    .spa{
+        padding: 194px 0 200px 0;
+    }
+    .featurette-heading {
+        font-weight: 700;
+        font-size: 65px;
+        color: #2b044d;
+        line-height: 85px;
+        font-family: "Nunito", sans-serif;
+    }
+    
+    .paragraph {
+    
+        font-size: 16px;
+        font-weight: 400;
+        font-family: "Poppins", serif;
+        color: rgb(112, 123, 142);
+        line-height: 30px;
+    }
+    .buttonhu {
+        background: #f9218d;
+        text-transform: capitalize;
+        color: #fff;
+        cursor: pointer;
+        display: inline-block;
+        font-size: 16px;
+        font-weight: 400;
+        letter-spacing: 1px;
+        line-height: 0;
+        margin-bottom: 0;
+        padding: 30px 44px;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: none;
+        position: relative;
+        z-index: 1;
+        border: 0;
+        overflow: hidden;
+        margin: 0;
+        padding: 30px 43px;
+        border-radius: 30px;
+    }
+    
+    .buttonhu::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 0;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.1);
+        transition: width 0.5s ease-in;
+    
+    }
+    
+    .buttonhu:hover::before {
+    
+        width: 100%;
+    }
+    .caurse {
+        height: 380px;
+        width: 200px !important;
+        overflow: hidden;
+        padding: 0 20px;
+    }
 
     .Applic {
         padding-left: 120px;
@@ -64,15 +313,24 @@
         font-size: 44px;
         font-family: "Open Sans", sans-serif;
     }
-
-}
-
-@media(max-width:480px) {
-    .imgs img {
-        height: 160px !important;
-        width: auto;
+    .review-card {
+        position: relative;
+        margin-left: 25px;
+        margin-right: 25px;
+        box-shadow: 0px 0px 9px 0px rgba(131, 93, 248, 0.07);
+        background: #ffff;
+        padding: 55px 34px 55px 44px;
+        opacity: 0.3;
+        font-family: 'Poppins', sans-serif;
+        width: 249px;
+    
+    }
+    .lst{
+        padding-bottom: 48px;
     }
 }
+
+
 
 @media(max-width:480px) {
     .mbl {
@@ -80,11 +338,69 @@
         justify-content: space-between;
         align-items: center;
     }
-
+    .fp{
+        padding-right: 10px;
+        margin-top: 20px;
+    }
+    .fpa{
+        padding-top: 30px; 
+    }
+    .spa{
+        padding: 50px 0 50px 0;
+    }
+    .caurse {
+        height: 380px;
+        width: 200px !important;
+        overflow: hidden;
+        
+    }
+    .imgs img {
+        height: 160px !important;
+        width: auto;
+    }
     .fa-bars {
         padding-top: 10px;
         font-size: 35px;
 
+    }
+    .buttonhu {
+        background: #f9218d;
+        text-transform: capitalize;
+        color: #fff;
+        cursor: pointer;
+        display: inline-block;
+        font-size: 16px;
+        font-weight: 400;
+        letter-spacing: 1px;
+        line-height: 0;
+        margin-bottom: 0;
+        padding: 30px 44px;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: none;
+        position: relative;
+        z-index: 1;
+        border: 0;
+        overflow: hidden;
+        margin: 0;
+        padding: 20px 25px;
+        border-radius: 30px;
+    }
+    
+    .buttonhu::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 0;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.1);
+        transition: width 0.5s ease-in;
+    
+    }
+    
+    .buttonhu:hover::before {
+        width: 100%;
     }
 
     .slick-slider {
@@ -99,10 +415,37 @@
     .slick-slide img {
         margin: 0 auto;
     }
+    .featurette-heading {
+        font-weight: 700;
+        font-size: 35px;
+        color: #2b044d;
+        line-height: 1;
+        font-family: "Nunito", sans-serif;
+    }
+    
+    .paragraph {
+    
+        font-size: 18px;
+        font-weight: 400;
+        font-family: "Poppins", serif;
+        color: rgb(112, 123, 142);
+        line-height: 1.5;
+    }
 }
 
 .slick-slider {
     margin: 0 auto;
+}
+.review-card {
+    position: relative;
+    
+    box-shadow: 0px 0px 9px 0px rgba(131, 93, 248, 0.07);
+    background: #ffff;
+    padding: 55px 34px 55px 44px;
+    opacity: 0.3;
+    font-family: 'Poppins', sans-serif;
+    width: 249px;
+
 }
 
 
@@ -159,64 +502,6 @@
     color: #450b78;
 }
 
-.featurette-heading {
-    font-weight: 700;
-    font-size: 65px;
-    color: #2b044d;
-    line-height: 85px;
-    font-family: "Nunito", sans-serif;
-}
-
-.paragraph {
-
-    font-size: 16px;
-    font-weight: 400;
-    font-family: "Poppins", serif;
-    color: rgb(112, 123, 142);
-    line-height: 30px;
-}
-
-.buttonhu {
-    background: #f9218d;
-    text-transform: capitalize;
-    color: #fff;
-    cursor: pointer;
-    display: inline-block;
-    font-size: 16px;
-    font-weight: 400;
-    letter-spacing: 1px;
-    line-height: 0;
-    margin-bottom: 0;
-    padding: 30px 44px;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: none;
-    position: relative;
-    z-index: 1;
-    border: 0;
-    overflow: hidden;
-    margin: 0;
-    padding: 30px 43px;
-    border-radius: 30px;
-}
-
-.buttonhu::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 0;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.1);
-    transition: width 0.5s ease-in;
-
-}
-
-.buttonhu:hover::before {
-
-    width: 100%;
-}
-
 .button1 a i {
     background-color: rgb(158, 104, 158);
     height: 60px;
@@ -228,8 +513,6 @@
 
 
 }
-
-
 .best-features-area .single-features .features-icon span {
     position: relative;
     color: #fff;
@@ -422,18 +705,7 @@
     background-repeat: no-repeat;
 }
 
-.review-card {
-    position: relative;
-    margin-left: 25px;
-    margin-right: 25px;
-    box-shadow: 0px 0px 9px 0px rgba(131, 93, 248, 0.07);
-    background: #ffff;
-    padding: 55px 34px 55px 44px;
-    opacity: 0.3;
-    font-family: 'Poppins', sans-serif;
-    width: 249px;
 
-}
 
 .review-content .heading {
     Color: rgb(143, 27, 220);
@@ -525,8 +797,3 @@
     color: white;
 }
 
-.caurse {
-    height: 413px;
-    width: 200px !important;
-    overflow: hidden;
-}
